@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "陪看",
+    "description": "一起看 B站视频：读取调试 Edge 里的真实播放进度，在画面上显示一条安静的小字，并给 Agent 提供 watch_start / watch_status / watch_sync / watch_here / watch_stop。",
+    "detail": "docs/DETAIL.md"
+  }
+}

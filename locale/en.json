@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Watch together",
+    "description": "Watch a Bilibili video together: read the real playback position from a debug Edge window, show one quiet overlay line on the video, and expose watch_start / watch_status / watch_sync / watch_here / watch_stop to the agent.",
+    "detail": "docs/DETAIL.md"
+  }
+}

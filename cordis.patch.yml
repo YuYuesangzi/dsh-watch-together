@@ -1,0 +1,3 @@
+- insert:
+    - id: watch-together
+      name: '@local/dsh-watch-together'

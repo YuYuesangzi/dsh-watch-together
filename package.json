@@ -1,0 +1,60 @@
+{
+  "name": "@local/dsh-watch-together",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Watch Bilibili together: read the real playback position from a debug Edge window, show a quiet overlay line on the video, and expose watch tools to the agent.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "overlay.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "宇约",
+    "url": "https://github.com/YuYuesangzi"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "bilibili",
+    "watch-party",
+    "cdp",
+    "edge"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuYuesangzi/dsh-watch-together.git"
+  },
+  "homepage": "https://github.com/YuYuesangzi/dsh-watch-together#readme",
+  "bugs": {
+    "url": "https://github.com/YuYuesangzi/dsh-watch-together/issues"
+  }
+}
