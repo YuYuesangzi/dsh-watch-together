@@ -1,6 +1,6 @@
 {
   "name": "@local/dsh-watch-together",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Watch Bilibili together: read the real playback position from a debug Edge window, show a quiet overlay line on the video, and expose watch tools to the agent.",
@@ -47,8 +47,8 @@
     "edge"
   ],
   "engines": {
-    "dsh": ">=0.2.2"
-  },
+  "dsh": ">=0.2.2-rc.5 <0.3.0-0"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YuYuesangzi/dsh-watch-together.git"
